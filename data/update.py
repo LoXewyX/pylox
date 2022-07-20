@@ -9,7 +9,9 @@ def update_from_repo(oldVer, newVer, git_url, installation_route, branch, reg = 
             move(join(fromPath, filename), join(toPath, filename))
 
         if deleteFromPath: rmdir(fromPath)
-        if deleteVersionFile: remove(f"{installation_route}\\version")
+        if deleteVersionFile:
+            remove(f"{installation_route}\\version")
+            remove(f"{installation_route}\\readme.md")
 
     from git_clone import git_clone
     git_clone(git_url, path=installation_route, branch_name=branch)
