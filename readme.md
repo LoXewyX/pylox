@@ -5,23 +5,23 @@
 
 1. Create a file called ```*optional name (it can be empty)*.env``` on folder ```./data/.env```
 2. Now add this values inside
-```env
+```env dotenv.env
 [SQL_CFG]
--USR = "root/127.0.0.1 or your ip username"
--PSWD = "password"
--HOST = "localhost/http(s)://domain.ext"
--PORT = "port/3306 (MySQL)"
--DB = "pylox_db {modify it from all files if you wish to change it}"
+USR = "root || myremoteusr"
+PSWD = "mypassword"
+HOST = "localhost || 127.0.0.1 || http(s)://domain.ext"
+PORT = "myport || 3306 (MySQL)"
+DB = "pylox_db {modify it from all files if you wish to change it} || my_db"
 
 [ENCODING]
--PSWD_TOKEN = "{generate your own with with Fernet.generate_key()}"
+PSWD_TOKEN = "generate your own token with Fernet.generate_key()"
 ```
 3. Launch your SQL database and make sure you have created your table
 4. Run the file "__main__.py"
 
 ### __THINGS TO DO__
-- [x] Create a python CRUD with SQL
-- [x] Create a functional login with local storage (metadata.json)
+- [x] Create a python *CRUD* with SQL
+- [x] Create a functional login with local storage \*located in ```./data/metadata.json```\*
 <br /><br />
 ![](https://progress-bar.dev/5/?title=Create%20the%20main%20page)
 
@@ -31,4 +31,7 @@
 
 I'm still an amateur at Python so...<br />
 If you can help me to improve this project it would be an honor :grin:<br />
-Much appreciated for trying this project :wave:
+Much appreciated for trying this project :wave:<br />
+<img src="https://avatars.githubusercontent.com/u/86871709?v=4"
+alt="Picture" width="250" height="250"
+style="display:block; margin:0 auto; border-radius:50%" />
