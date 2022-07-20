@@ -21,9 +21,9 @@ PSWD_TOKEN = "generate your own token with Fernet.generate_key()"
 
 ### __THINGS TO DO__
 - [x] Create a python *CRUD* with SQL
-- [x] Create a functional login with local storage \*located in ```./data/metadata.json```\*
-<br /><br />
-![](https://progress-bar.dev/5/?title=Create%20the%20main%20page)
+- [x] Create a functional login with local storage \*located in ```./data/metadata.json```\*<br />
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](https://progress-bar.dev/5/?title=Create%20the%20main%20page)
 
 - [ ] Create an instant messaging
 - [ ] Host a remote server
@@ -32,6 +32,7 @@ PSWD_TOKEN = "generate your own token with Fernet.generate_key()"
 I'm still an amateur at Python so...<br />
 If you can help me to improve this project it would be an honor :grin:<br />
 Much appreciated for trying this project :wave:<br />
-<img src="https://avatars.githubusercontent.com/u/86871709?v=4"
-alt="Picture" width="250" height="250"
-style="display:block; margin:0 auto; border-radius:50%" />
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/86871709/179967999-26052aff-0208-48bd-a051-32c8493f4675.png" width=250 height=250 style="border-radius: 50%"/>
+</p>
