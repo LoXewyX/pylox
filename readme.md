@@ -2,7 +2,6 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:point_right: https://cryptography.io/en/latest/fernet/
 
 ### __HOW DOES IT WORK AND HOW YOU CAN RUN IT?__
-
 1. Create a file called ```*optional name (it can be empty)*.env``` on folder ```./data/.env```
 2. Now add this values inside
 ```env dotenv.env
@@ -32,7 +31,7 @@ PSWD_TOKEN = "generate your own token with Fernet.generate_key()"
 I'm still an amateur at Python so...<br />
 If you can help me to improve this project it would be an honor :grin:<br />
 Much appreciated for trying this project :wave:<br />
-
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/86871709/179967999-26052aff-0208-48bd-a051-32c8493f4675.png" width=250 height=250 style="border-radius: 50%"/>
+  <img src="https://user-images.githubusercontent.com/86871709/179967999-26052aff-0208-48bd-a051-32c8493f4675.png" width=250 height=250
+  style="border: 10px solid black; border-radius: 50%; overflow: hidden"/>
 </p>
