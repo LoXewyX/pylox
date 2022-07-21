@@ -35,5 +35,5 @@ Much appreciated for trying this project :wave:<br />
 <!--My Watermark-->
 <p align="center">
   <img src="https://user-images.githubusercontent.com/86871709/179967999-26052aff-0208-48bd-a051-32c8493f4675.png" width=250 height=250
-  style="border: 10px solid black; border-radius: 50%; overflow: hidden"/>
+  style="border: 10px solid black; overflow: hidden"/>
 </p>
